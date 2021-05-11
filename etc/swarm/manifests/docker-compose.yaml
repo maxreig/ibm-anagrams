@@ -1,7 +1,6 @@
 services:
   anagrams:
-    image: maxreig/ibm-anagrams:latest
-      volumes:
-        - /tmp/ibm-anagrams/data:/data:ro
-version:  '3.8'
-        
+    image: chemagonzalez/ibm-anagrams:latest
+    volumes:
+      - /tmp/ibm-anagrams/data:/data:ro
+version: '3.8'

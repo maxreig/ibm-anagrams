@@ -1,4 +1,3 @@
-# Hola bot
 services:
   anagrams:
     image: maxreig/ibm-anagrams:latest

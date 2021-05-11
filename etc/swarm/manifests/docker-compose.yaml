@@ -1,1 +1,8 @@
 # Hola bot
+services:
+  anagrams:
+    image: maxreig/ibm-anagrams:latest
+      volumes:
+        - /tmp/ibm-anagrams/data:/data:ro
+version:  '3.8'
+        

@@ -1,0 +1,12 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ibm-anagrams-job
+spec:
+  template:
+    container:
+      -
+        image: maxreig/ibm-anagrams:latest
+        name: ibm-anagrams-container
+        
+  
